@@ -22,3 +22,11 @@
 ### Custom app component - \_app.js
 
 - レンダーリングするときの Blueprint になる
+
+### Catch-all URL
+
+- file format: [...param].js
+  - 全ての Param が Query として Catch できる
+  - ex) /movies/[...id].js の場合
+    - /movies/aaa/bbb/ccc/ddd
+    - query: id: [aaa, bbb, ccc, ddd]
