@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Seo from "../components/Seo";
 
 export default function Home() {
-  const [movies, setMovies] = useState([]);
+  const [movies, setMovies] = useState();
   useEffect(() => {
     (async () => {
       const { results } = await (await fetch(`/api/movies`)).json();
