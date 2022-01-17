@@ -19,6 +19,6 @@
 - style タグの中に css を定義すると、そのコンポーネントを範囲に CSS が適用される。親コンポーネントには反映されない。
 - style jsx global で親から子コンポーネントへ適用する
 
-### \_app.js
+### Custom app component - \_app.js
 
 - レンダーリングするときの Blueprint になる
